@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>javascript in one video in hindi</title>
+</head>
+<body>
+   document.write(c); =Date methods <br></br>
+ 
+<form name="myform" onsubmit="return validation()">
+    Username : <input type="text" value"" id="user" > <span id="username"> </span> <br></br>
+    password : <input type="password" value"" id="pass"><span id="password"> </span> <br></br>
+    <input type="submit" value="Submit">
+
+</form>  
+<script>
+function validation(){
+
+    var un = document.getElementById("user").value;
+    var ps = document.getElementById("pass").value;
+console.log(un)
+    if(un==""){
+        document.getElementById("username").innerHTML="**Please fill the username";
+        return false;
+    }
+    if(ps==""){
+        document.getElementById("password").innerHTML="**Please fill the password";
+        return false;
+    }
+     else{
+         alert("done");
+         return true;
+     }
+}
+
+    </script>
+        
+</body>
+</html>
